@@ -17,12 +17,12 @@
       </div>
       <div class="header-right">
         <ul class="header-links">
-          <li><a class="header-li-item" href="#">About</a></li>
+          <li><a class="header-li-item" href="#about-id">About</a></li>
           <li><a class="header-li-item" href="#project-id">Projects</a></li>
-          <li><a class="header-li-item" href="#">Services</a></li>
+          <li><a class="header-li-item" href="#services-id">Services</a></li>
           <li><a class="header-li-item" href="#contact-id">Contact</a></li>
         </ul>
-        <button class="cv">Resume</button>
+        <a href="#"><button class="cv">Resume</button></a>
       </div>
     </div>
 
@@ -33,22 +33,86 @@
           who believe on the power of change the world
           by making<br> highly maintainable, scalable and secure systems.
         </span>
-        <button class="info-more">More about me!</button>
+        <a href="#about-id">
+          <button class="info-more">More about me!</button>
+        </a>
+
       </div>
       <img class="personal-photo" src="./img/profile.jpg">
     </div>
   </div>
 
-  <div class="project" id="project-id">
-    <div class="project-title">Projects</div>
-    <div>
-      <ul class="project-list">
-        <li>
-          Boharest
-        </li>
-        <li>Rafeq</li>
-        <li>saveme</li>
-      </ul>
+  <div class="about-div">
+    <div class="about" id="about-id">
+      <div class="about-title">About Me!</div>
+      <div class="about-content">
+        Hello, I am Mohamed Alaa, Computer engineering student.<br>
+        My interest in Backend development started in 2022 when<br>
+        I decided to learn how all these intensive data are moved<br>
+        throw the backend world and how that brilliant logic works<br>
+        <br> — This motivated me to start learning a lot about Databases, Django, Docker, API's
+      </div>
+
+      <!-- <div class="about-knowledge"> -->
+        <div class="about-list-title">Here are a few technologies I’ve been working with recently:</div>
+        <div class="about-list-content">
+          <ul>
+            <li>Django, django-rest</li>
+            <li>Database</li>
+            <li>Docker</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+
+  <div class="project-div">
+    <div class="project" id="project-id">
+      <div class="project-title-main">Projects</div>
+      <div>
+        <ul class="project-list">
+          <li>
+            <div class="project-title">Boharest</div>
+            <div class="project-desc">
+              The worest project ever, designed with the most spaghity way,
+              <br>built with the worest way of code.
+              built using django, html, css
+            </div>
+          </li>
+          <li>
+            <div class="project-title">Rafeq</div>
+            <div class="project-desc">
+              The best project ever, designed by uncle bob,
+              <br>built by linus torvaldos.
+              built using node.js, react.js.
+            </div>
+          </li>
+          <li>
+            <div class="project-title">saveme</div>
+            <div class="project-desc">
+              The worest project ever, designed with the most spaghity way, <br>built with the worest way of code.
+              built using django-rest, vue.js.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="services-div">
+    <div class="services" id="services-id">
+      <span class="services-title">What i can servie!</span>
+      <div class="services-list">
+        <ul>
+          <li>Code the worest backend you can show everr.</li>
+          <li>Code the best backend you can show everr.</li>
+          <li>The worest developer to work with database.</li>
+          <li>Feed your cat!</li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -61,28 +125,20 @@
 
 
   <div class="contacts">
-  <div class="contact-center">
-    <div class="contact" id="contact-id">
-      <span class="contact-title">Let's contact!</span>
-      <div class="contact-list-div">
-        <ul class="contact-list">
-          <li><a class="contact-list-item" href="#">Github</a></li>
-          <li><a class="contact-list-item" href="#">LinkedIn</a></li>
-          <li><a class="contact-list-item" href="#">mhmaaddalaa@gmail.com</a></li>
-          <li><a class="contact-list-item" href="#">CV</a></li>
-          <li><a class="contact-list-item" href="#">Twitter</a></li>
-        </ul>
-
-
-
-        <!-- <a href="#"><img class="linkedin" src="./img/linkedin.png"></a>
-      <a href="#"><img class="github" src="./img/github.png"></a>
-      <a href="#"><img class="github" src="./img/github-mark.png"></a>
-      <a href="#"><img class="telegram" src="./img/telegram.png"></a>
-      <a href="#"><img class="twitter" src="./img/twitter.png"></a> -->
+    <div class="contact-center">
+      <div class="contact" id="contact-id">
+        <span class="contact-title">Let's contact!</span>
+        <div class="contact-list-div">
+          <ul class="contact-list">
+            <li><a class="contact-list-item" href="#">Github</a></li>
+            <li><a class="contact-list-item" href="#">LinkedIn</a></li>
+            <li><a class="contact-list-item" href="#">mhmaaddalaa@gmail.com</a></li>
+            <li><a class="contact-list-item" href="#">CV</a></li>
+            <li><a class="contact-list-item" href="#">Twitter</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 
 
