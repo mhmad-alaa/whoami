@@ -24,9 +24,18 @@ body {
 .header-links {
   display: flex;
   font-size: 18px;
-  color: #E5E7EB;
-  gap: 25px
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
 }
+
+.header-li-item {
+  text-decoration: none;
+  color: white;
+}
+
 
 .cv {
   font-size: 18px;
@@ -39,9 +48,6 @@ body {
   align-items: center;
   gap: 16px;
 }
-
-
-
 
 /* personal information section  */
 
@@ -83,16 +89,7 @@ body {
   margin: 25px;
 }
 
-.header-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-a {
-  text-decoration: none;
-  color: #f9faf8;
-}
 
 button {
   border: none;
@@ -137,12 +134,81 @@ button {
 }
 
 
+
+
+
+/* contact section */
+
+.contacts {
+  background-color: white;
+  padding: 100px;
+}
+
+.contact-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.contact {
+  /* background-color: white; */
+  background-color: #3882f6;
+  border-radius:1em;
+}
+
+.contact-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: #e5e7eb;
+  font-weight: 900;
+  padding: 30px;
+}
+
+.contact-list {
+  font-size: 24px;
+  list-style-type: none;
+
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.contact-list-item {
+  
+  text-decoration: none;
+  /* color: #ffffff; */
+  color: #000000;
+  font-size: 30px;
+  padding: 10px;
+
+  margin: 10px;
+  /* border: 1px; */
+  /* border-color: white; */
+  background-color: white;
+  border-radius:5px;
+
+  /* border-color: #000000; */
+}
+
+.linkedin, 
+.github, 
+.telegram, 
+.twitter {
+  border: 5px solid #b7b1b1;
+  border-radius:5%;
+}
+
 /* qutoe section */
 
 .quote {
   display: flex;
   justify-content: center;
   background-color: #e5e7eb;
+  
 }
 
 .quote-sub {
@@ -152,6 +218,9 @@ button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+
+  padding: 33px; 
+
   
 }
 
@@ -164,38 +233,29 @@ button {
   text-align: right;
 }
 
-
-
-/* contact section */
-
-.contact {
-  /* background-color: white; */
-  background-color: #e5e7eb;
-}
-
-.contact-title {
+.footer {
+  background-color: #1f2937;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 48px;
-  color: #1f2937;
-  font-weight: 900;
+}
+
+.footer-content {
+  color: #e5e7eb;
+  font-size: 20px;
   padding: 30px;
 }
 
-.contact-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 40px;
-  padding: 30px;
-  justify-content: center;
+
+/* globals */
+
+/* 
+ul {
+  color: #f9faf8;
 }
 
-.linkedin, 
-.github, 
-.telegram, 
-.twitter {
-  border: 5px solid #b7b1b1;
-  /* border: 5px solid white; */
-  border-radius:5%;
-}
+a {
+  text-decoration: none;
+  color: #f9faf8;
+} 
+*/
